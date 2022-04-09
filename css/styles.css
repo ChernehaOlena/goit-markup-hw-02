@@ -1,33 +1,25 @@
 :root {
-    --header-color: #ffffff:
-    --hero-bg-color: #2F303A;
-    --text-color: 
-    --link-color: #212121;
     --bnt-color: #2196F3;
     --contacts-color: #757575;
-    --l
-
-
-
-
-
-
-}   
-
-
-
-
-
-
-
-
-
-
-
+    }   
 body {
     font-family: Roboto,Tahoma, sans-serif;
    background: white; 
 }
+
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+  }
 
 .link {
     text-decoration: none;
@@ -59,7 +51,7 @@ color: #000000;
 font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
-color: #212121;
+color: #212121; 
 }
 
 .header-nav-link.current{
@@ -71,7 +63,7 @@ font-weight: 500;
 font-size: 14px;
 line-height: 1.14px;
 letter-spacing: 0.02em;
-color: #757575;
+color: var(--contacts-color);
 }
 
 .hero{
@@ -89,7 +81,8 @@ color: #FFFFFF;
 }
 
 .hero-btn{
-background: #2196F3;
+font-family: 'Roboto';
+background: var(--bnt-color);
 font-weight: 700;
 font-size: 16px;
 line-height: 1.88;
@@ -102,9 +95,6 @@ color: #FFFFFF;
 
 .hero-btn:hover, .hover-btn:focus{
   background: #188CE8;}
-}
-
-
 
 .specifics{
 font-weight: 700;
@@ -113,9 +103,7 @@ line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #212121;
-    
 }
-
 
 .specifics-text{
 font-weight: 400;
@@ -135,7 +123,7 @@ color: #212121;
 }
 
 .team{
-    background: #F5F4FA;;
+background: #F5F4FA;;
 }
 
 .team-title{
@@ -146,14 +134,12 @@ line-height: 1.16;
 letter-spacing: 0.03em;
 
 color: #212121;
-
 }
 
 .team-lead{
 background: #FFFFFF;
 box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 border-radius: 0px 0px 4px 4px;
-
 }
 
 .team-lead-title{
@@ -176,7 +162,7 @@ color: #757575;
 }
 
 .footer{
-    background: #2F303A;;
+background: #2F303A;;
 }
 
 .footer-logo-item{
@@ -221,18 +207,19 @@ color: rgba(255, 255, 255, 0.6);
 
 
 .filter-btn-current{
+font-family: 'Roboto';
 font-weight: 500;
 font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
 color: #FFFFFF;
-background: #2196F3;
+background: var(--bnt-color);
 border-radius: 4px;
-
 }
 
 .filter-btn{
+    font-family: 'Roboto';
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
