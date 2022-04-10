@@ -228,7 +228,9 @@ border-radius: 4px;
     color: #212121;
     background: #F5F4FA;
     }
-
+.filter-btn:hover, .hover-btn:focus{
+    background: #188CE8;}
+      
     .works {
     background: #FFFFFF;
     border: 1px solid #EEEEEE;
