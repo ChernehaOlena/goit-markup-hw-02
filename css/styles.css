@@ -80,6 +80,10 @@ body {
     color: var(--header-nav);
 }
 
+.header-nav-link:hover, .header-nav-link:focus{
+    color: var(--accent-color);
+}
+
 .header-nav-link.current{
     color: var(--accent-color);
 }
@@ -197,6 +201,10 @@ body {
     color: var(--footer-map);
 }
 
+.footer-map:hover, .footer-map:focus{
+    color: var(--accent-color);
+}
+
 .footer-mail{
     font-style: normal;
     line-height: 1.71;  
@@ -240,9 +248,10 @@ body {
     color: var(--filter-btn);
     background: var(--filter-btn-bgr);
     }
+
 .filter-btn:hover, .hover-btn:focus{
     background: var(--accent-color);
-}
+    }
       
 .works {
     background: var(--works-bgr);
